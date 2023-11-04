@@ -1,0 +1,235 @@
+1)print the value 23
+                  3.456
+                  123456?
+solution:
+ #include <stdio.h>
+
+int main()
+{
+    int a=23;
+    float b=3.456;
+    int c=123456;
+    printf("%d\n""%f\n""%d",a,b,c);
+
+    return 0;
+}
+---------------------------------------------------------------------------------------
+2)print the char t
+		 w
+		 u
+		 h?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    char a='t';
+    char b='w';
+    char c='u';
+    char d='h';
+    printf("%c\n""%c\n""%c\n""%c",a,b,c,d);
+    return 0;
+}
+----------------------------------------------------------------------------------------
+3)add the two number 12+78?
+solution:  
+#include <stdio.h>
+
+int main()
+{
+    int a=12;
+    int b=78;
+    int c;
+    c=a+b;
+    printf("the sum a and b is: %d",c);
+			
+    return 0;
+}
+------------------------------------------------------------------------------------------------
+4)sub the two number 567-34?
+solution:
+#include <stdio.h>
+
+int main()
+{
+   int a=567;
+   int b=34;
+   int c;
+   c=a-b;
+   printf("the subtraction of a and b is:%d",c);
+    return 0;
+}
+----------------------------------------------------------------------------------------------------
+5)division of number 22/2?
+solution:
+#include <stdio.h>
+
+int main()
+{
+  int a=22;
+  int b=2;
+  int c;
+  c=a/b;
+  printf("division of a and b is:%d",c);
+    return 0;
+}
+----------------------------------------------------------------------------------------------------------
+6)multply of 23*124?
+solution:
+#include <stdio.h>
+
+int main()
+{
+ int a=23;
+ int b=124;
+ int c;
+ c=a*b;
+ printf("multply of a and b is:%d",c);
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------------
+7)23+56+8+12?
+solution:
+#include <stdio.h>
+
+int main()
+{
+  int a=23;
+  int b=56;
+  int c=8;
+  int d=12;
+  int sum;
+  sum=a+b+c+d;
+  printf("the sum of a,b,c and d is:%d",sum);
+    return 0;
+}
+----------------------------------------------------------------------------------------------------------------
+8)67-12*3+7?
+solution:
+#include <stdio.h>
+
+int main()
+{
+  int a=67;
+  int b=12;
+  int c=3;
+  int d=7;
+  int answer;
+  answer=a-b*c+d;
+  printf("the solution of a,b,c and d is:%d",answer);
+    return 0;
+}
+--------------------------------------------------------------------------------------------------------------------
+9)1.2+5.6*2-8?
+solution:
+#include <stdio.h>
+
+int main()
+{
+  float a=1.2;
+  float b=5.6;
+  int c=2;
+  int d=8;
+  float answer;
+  answer=a+b*c-d;
+  printf("the solution of a,b,c and d is:%f",answer);
+    return 0;
+}
+------------------------------------------------------------------------------------------------------------------------
+10)12+(56*32)-78/2 ?
+solution:
+#include <stdio.h>
+
+int main()
+{
+  int a=12;
+  int b=56;
+  int c=32;
+  int d=78;
+  int e=2;
+  int answer;
+  answer=a+(b*c)-d/e;
+  printf("the solution of this:%d",answer);
+  
+    return 0;
+}
+----------------------------------------------------------------------------------------------------------------------------
+11)area of square?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    //area of square
+  int side=5;
+  int area;
+  area=side*side;
+  printf("%d",area);
+  
+    return 0;
+}
+------------------------------------------------------------------------------------------------------------------
+12)area of triangle?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    //area of triangle
+  int height=10;
+  int base=7;
+  int area;
+  area=(height*base)/2;
+  printf("%d",area);
+  
+    return 0;
+}
+----------------------------------------------------------------------------------------------------------------------
+13)area of rectangle?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    //area of rectangle
+  int length=10;
+  int width=7;
+  int area;
+  area=length*width;
+  printf("%d",area);
+  
+    return 0;
+}
+--------------------------------------------------------------------------------------------------------------
+14)volume of sphere?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    //volume of sphere
+  int radius=10;
+  float pie=3.14;
+  float volume;
+  volume=pie*radius*radius*radius*4/3;
+  printf("%f",volume);
+  
+    return 0;
+}
+--------------------------------------------------------------------------------------------------------------------------
+15)volume of cube?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    //volume of cube
+  int side=10;
+  int volume;
+  volume=side*side*side;
+  printf("%d",volume);
+  
+    return 0;
+}
+-----------------------------------------------------------------------------------------------------------------
+
