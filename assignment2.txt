@@ -1,0 +1,322 @@
+1)print user input values 23
+			  3.456
+			  123456?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    float b;
+    printf("enter the value of b");
+    scanf("%f",&b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    
+    return 0;
+}
+-----------------------------------------------------------------------------------------------------------------------------
+2)print user input char t
+			w
+			u
+			h?
+solution:
+#include <stdio.h>
+
+int main()
+{
+   char a;
+     printf("print the value of char a :");
+     scanf("%c",&a);
+    char b;
+    printf("print the value of char b :");
+    scanf(" %c",&b);
+    char c;
+    printf("print the value of char c :");
+    scanf(" %c",&c);
+    char d;
+    printf("print the value of char d :");
+    scanf(" %c",&d);
+    
+    return 0;
+}
+------------------------------------------------------------------------------------------------------
+3)add the two number by user input 12+78?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    c=a+b;
+    printf("the sum of a and b is: %d",c);
+    
+    return 0;
+}
+----------------------------------------------------------------------------------------------------------
+4)sub two number by user input 567-34?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    c=a-b;
+    printf("the sub of a and b is: %d",c);
+    
+    return 0;
+}
+---------------------------------------------------------------------------------------------------------
+5)division of number by user input 22/2?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    c=a/b;
+    printf("the division of a and b is: %d",c);
+    
+    return 0;
+}
+---------------------------------------------------------------------------------------------------------
+6)multply by user input 23*124?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    c=a*b;
+    printf("the multply of a and b is: %d",c);
+    
+    return 0;
+}
+------------------------------------------------------------------------------------------------------------
+7)by user input
+23+56+8+12?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d",&d);
+    int sum;
+    sum=a+b+c+d;
+    printf("the sum a,b,c and d is: %d",sum);
+    
+    return 0;
+}
+----------------------------------------------------------------------------------------------
+8)bu user input
+67-12*3+7?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d",&d);
+    int solution;
+    solution=a-b*c+d;
+    printf("the solution of a,b,c and d is: %d",solution);
+    
+    return 0;
+}
+-----------------------------------------------------------------------------------------------------
+9)by usser input
+1.2+5.6*2-8?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    float a;
+    printf("enter the value of a");
+    scanf("%f",&a);
+    float b;
+    printf("enter the value of b");
+    scanf("%f",&b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d",&d);
+    float solution;
+    solution=a+b*c-d;
+    printf("the solution of a,b,c and d is: %f",solution);
+    
+    return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------
+10)by user input
+12+(56*32)-78/2?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d",&d);
+    int e;
+    printf("enter the value of e");
+    scanf("%d",&e);
+    int solution;
+    solution=a+(b*c)-d/e;
+    printf("the solution of a,b,c,d and e is: %d",solution);
+    
+    return 0;
+}
+----------------------------------------------------------------------------------------------------------------------
+11)area of square by user input?
+solution:
+#include <stdio.h>
+
+int main()
+{
+     //area of square
+  int side;
+  printf("enter the value of side");
+  scanf("%d",&side);
+  int area;
+  area=side*side;
+  printf("area of square is :%d",area);
+    
+    return 0;
+}
+--------------------------------------------------------------------------------------------------------------------------------
+12)area of triangle by user input?
+solution:
+#include <stdio.h>
+
+int main()
+{
+   //area of triangle
+  int height;
+  printf("enter the value of height");
+  scanf("%d",&height);
+  int base;
+  printf("enter the value of base");
+  scanf("%d",&base);
+  int area;
+  area=(height*base)/2;
+  printf("%d",area);
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------------------------
+13)area of rectangle by user input?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    //area of rectangle
+  int length;
+  printf("enter the value of length");
+  scanf("%d",&length);
+  int width;
+  printf("enter the value of width");
+  scanf("%d",&width);
+  int area;
+  area=length*width;
+  printf("%d",area);
+    return 0;
+}
+--------------------------------------------------------------------------------------------------------------------
+14)volume of sphere by user input?
+solution:
+#include <stdio.h>
+
+int main()
+{
+    //volume of sphere
+  int radius;
+  printf("enter the value of radius");
+  scanf("%d",&radius);
+  float pie=3.14;
+  float volume;
+  volume=pie*radius*radius*radius*4/3;
+  printf("%f",volume);
+    return 0;
+}
+-----------------------------------------------------------------------------------------------------------------------------------
+15)volume of cube by user input?
+solution:
+#include <stdio.h>
+
+int main()
+{
+   //volume of cube
+  int side;
+  printf("enter the value of side");
+  scanf("%d",&side);
+  int volume;
+  volume=side*side*side;
+  printf("%d",volume);
+    return 0;
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------   
+    
+
+    
+    
+    
